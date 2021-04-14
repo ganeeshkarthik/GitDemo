@@ -67,7 +67,11 @@ public class BaseClass {
 
 	public static void launchUrl(String url) {
 		driver.get(url);
+	}
+	
+	public static void maximize() {
 		driver.manage().window().maximize();
+
 	}
 
 	public static WebElement locatorById(String data) {
